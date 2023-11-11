@@ -1,0 +1,77 @@
+.father{
+    position: absolute;
+}
+.wrap{
+    width: 400px;   
+    height: 679.33px;
+display: flex;
+  /* position: relative; */
+  overflow: hidden; 
+  
+}
+.wrap2{
+    padding-top: 0;
+    margin-top: 0;
+  background-color: rgb(109, 106, 106);
+  text-align: center;
+  z-index: "6000000";
+}
+
+.wrap3{
+    /* position: absolute; */
+     width:280px;
+    height:167px;
+      top:210px; 
+     left: 60px;  
+     position: absolute;
+     z-index:"50000";
+    background-color:rgba(23, 21, 21, 0.5);
+    border-radius: 13px;
+border:1px solid rgba(240, 10, 10, 0.3);/*表单边框颜色*/
+}
+
+.box{
+display: flex;
+
+  width: cale(1200px*5);
+
+animation: donghua 8s linear infinite;
+} 
+.box img{
+  float: left;
+display: flex;
+  width: 400px;
+  height: 679.33px; 
+} 
+
+ @keyframes donghua{
+    0%{
+        transform: translateX(0px);
+    }
+    10%{
+        transform: translateX(0px);
+    }
+    25%{
+
+        transform: translateX(-400px);  
+    }
+35%{
+    transform: translateX(-400px);  
+}
+50%{
+    transform: translateX(-800px);  
+}
+60%{
+    transform: translateX(-800px);  
+}
+75%{
+    transform: translateX(-1200px);  
+}
+85%{
+    transform: translateX(-1200px);  
+}
+100%{
+    transform: translateX(-1200px);  
+    }    
+ 
+}
